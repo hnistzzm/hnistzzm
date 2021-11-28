@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 <!-- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=hnistzzm)](https://github.com/anuraghazra/github-readme-stats) -->
 努力ing
 
-> QQ：369365576
+> QQ：957957209
 
 ###  My Blog Address
 | 我的博客                                                | CSDN                                          |
@@ -39,4 +39,4 @@ Here are some ideas to get you started:
 
 If not now,when? If not me,who?
 
-> 时不我待，舍我其谁！
+> 须知少年凌云志,曾许人间第一流
