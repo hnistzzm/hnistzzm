@@ -37,6 +37,5 @@ Here are some ideas to get you started:
 
 ###  Want to say
 
-If not now,when? If not me,who?
 
 > 须知少年凌云志,曾许人间第一流
