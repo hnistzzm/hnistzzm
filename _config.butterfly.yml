@@ -1,0 +1,207 @@
+
+error_404:
+  enable: true
+  subtitle: "页面没有找到"
+  background: 
+
+
+#顶部图
+index_img : /images/background.webp
+
+#页面加载动画
+#--------------------------------------
+
+#网站副标题
+#--------------------------------------
+# 主页subtitle
+subtitle:
+  enable: true
+  # 打字效果
+  effect: true
+  # 循环或者只打字一次
+  loop: true
+  # source调用第三方服务
+  # source: false 关闭调用
+  # source: 1  调用搏天api的随机语录（简体） 
+  # source: 2  调用一言网的一句话（简体） 
+  # source: 3  调用一句网（简体） 
+  # source: 4  调用今日诗词（简体
+  # subtitle 会先显示 source , 再显示 sub 的内容
+  source: false
+  # 如果有英文逗号' , ',请使用转义字元 &#44;
+  # 如果有英文双引号' " ',请使用转义字元 &quot;
+  # 开头不允许转义字元，如需要，请把整个句子用双引号包住
+  # 例如 ”&quotNever put off till tomorrow what you can do today&quot"
+  # 如果关闭打字效果，subtitle只会显示sub的第一行文字
+  sub:
+    - 少年须知凌云志 曾许人间第一流
+
+
+#导航菜单
+menu:
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
+
+#搜索系统
+algolia_search:
+  enable: false
+  hits:
+    per_page: 6
+# Local search
+local_search:
+  enable: true
+
+
+#社交图标
+social:
+  fab fa-github: https://github.com/hnistzzm || Github
+  fab fa-git-alt: https://gitee.com/hnistzzm || Gitee
+  fab fa-qq: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=957957209 || QQ
+
+#主页文章节选
+index_post_content:
+  method: 2
+  length: both # if you set method to 2 or 3, the length need to config
+
+#文章封面图
+cover:
+  # 是否显示文章封面
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  # 封面显示的位置
+  # 三个值可配置 left , right , both
+  position: both
+  # 当没有设置cover时，默认的封面显示
+  default_cover:
+    #- https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png
+    - /images/background.webp
+
+#文章meta显示
+post_meta:
+  page:
+    date_type: both # created or updated or both 主页文章日期是创建日或者更新日或都显示
+    date_format: relative # date/relative 显示日期还是相对日期
+    categories: true # true or false 主页是否显示分类
+    tags: true # true or false 主页是否显示标籤
+    label: true # true or false 显示描述性文字
+  post:
+    date_type: both # created or updated or both 文章页日期是创建日或者更新日或都显示
+    date_format: relative # date/relative 显示日期还是相对日期
+    categories: true # true or false 文章页是否显示分类
+    tags: true # true or false 文章页是否显示标籤
+    label: true # true or false 显示描述性文字
+
+
+#文章页目录
+toc:
+  enable: true
+  number: true
+  style_simple: true
+
+#头像
+avatar:
+  img: /images/avater1.jpg
+  effect: false # 头像会一直转圈
+
+
+#footer设置
+footer:
+  owner:
+    enable: true
+    since: 2022
+  custom_text: Hi, welcome to astronaut blog</a>!
+
+#右下角按钮
+
+##简体繁体互换
+translate:
+  enable: true
+  # 默认按钮显示文字(网站是简体，应设置为'default: 繁')
+  default: 简
+  #网站默认语言，1: 繁体中文, 2: 简体中文
+  defaultEncoding: 1
+  #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+  translateDelay: 0
+  #当文字是简体时，按钮显示的文字
+  msgToTraditionalChinese: "繁"
+  #当文字是繁体时，按钮显示的文字
+  msgToSimplifiedChinese: "简"
+
+##夜间模式
+# dark mode
+darkmode:
+  enable: true
+  # dark mode和 light mode切换按钮
+  button: true
+  autoChangeMode: 2
+
+##阅读模式
+readmode: true
+
+
+#侧边栏设置
+#------------------------
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: false # 手机页面（ 显示宽度 < 768px ）是否显示aside内容
+  position: right # left or right
+  card_author:
+    enable: true
+    description:
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/hnistzzm
+  card_announcement:
+    enable: true
+    content: 欢迎光临我的博客网站,时间匆促,目前之搭了个架子,抱歉
+  card_recent_post:
+    enable: true
+    limit: 5 # if set 0 will show all 
+    sort: date # date or updated
+  card_categories:
+    enable: true
+    limit: 8 # if set 0 will show all
+    expand: none # none/true/false
+  card_tags:
+    enable: true
+    limit: 40 # if set 0 will show all
+    color: true
+  card_archives:
+    enable: true
+    type: monthly # yearly or monthly
+    format: MMMM YYYY # eg: YYYY年MM月
+    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
+    limit: 8 # if set 0 will show all
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+
+##访问人数
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+##运行时间
+runtimeshow:
+  enable: true
+  publish_date: 1/7/2022 00:00:00  
+  ##网页开通时间
+  #格式: 月/日/年 时间
+  #也可以写成 年/月/日 时间
+
+preloader:
+    enable: true # true|false
+    load_color: '#000000' # '#37474f'
+    load_style: ironheart  # spinner-box|wizard|ironheart|scarecrow|image
+    load_image:  # url
