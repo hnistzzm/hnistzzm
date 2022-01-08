@@ -1,18 +1,10 @@
 ---
-title: test
-date: 2022-01-07 11:19:14
-comments: true
-
-categories:
-- Diary
-
-tags: 
-- 面试题 
-- 测试
+title: 手写new
+date: 2022-01-08 11:41:30
+categories: 面试题
+tags: JavaScript
+cover: './img/background.webp'
 ---
-
-
-
 
 先用文字描述一下 new 的实现过程
 
