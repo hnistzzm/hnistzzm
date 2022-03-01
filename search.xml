@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>面试复习路线</title>
+      <link href="/2022/03/01/%E9%9D%A2%E8%AF%95%E5%A4%8D%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
+      <url>/2022/03/01/%E9%9D%A2%E8%AF%95%E5%A4%8D%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-JavaScript-基础"><a href="#1-JavaScript-基础" class="headerlink" title="1. JavaScript 基础"></a>1. JavaScript 基础</h2><p><img src="../img/javascript.png" alt="image-20220301163103625"></p><h2 id="2-CSS-基础"><a href="#2-CSS-基础" class="headerlink" title="2. CSS 基础"></a>2. CSS 基础</h2><p><img src="../img/css.png" alt="image-20220301162753126"></p><h2 id="3-框架-Vue-为主"><a href="#3-框架-Vue-为主" class="headerlink" title="3. 框架(Vue 为主)"></a>3. 框架(Vue 为主)</h2><p><img src="../img/frame.png" alt="image-20220301162814498"></p><h2 id="4-工程化"><a href="#4-工程化" class="headerlink" title="4. 工程化"></a>4. 工程化</h2><p><img src="../img/webpack.png" alt="image-20220301162824681"></p><h2 id="5-性能优化"><a href="#5-性能优化" class="headerlink" title="5.性能优化"></a>5.性能优化</h2><p><img src="../img/performance.png" alt="image-20220301162854191"></p><h2 id="6-TypeScript"><a href="#6-TypeScript" class="headerlink" title="6. TypeScript"></a>6. TypeScript</h2><p><img src="../img/typescript.png" alt="image-20220301162905975"></p><h2 id="7-网络"><a href="#7-网络" class="headerlink" title="7. 网络"></a>7. 网络</h2><p><img src="../img/http.png" alt="image-20220301162917274"></p><h2 id="8-设计模式"><a href="#8-设计模式" class="headerlink" title="8. 设计模式"></a>8. 设计模式</h2><p><img src="../img/design.png" alt="image-20220301162929421"></p><h2 id="9-数据结构-算法"><a href="#9-数据结构-算法" class="headerlink" title="9. 数据结构/算法"></a>9. 数据结构/算法</h2><p><img src="../img/datastructure.png" alt="image-20220301162944459"></p><h2 id="10-安全"><a href="#10-安全" class="headerlink" title="10. 安全"></a>10. 安全</h2><p><img src="../img/safe.png" alt="image-20220301162958144"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JavaScript深入之作用域链</title>
       <link href="/2022/03/01/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE/"/>
       <url>/2022/03/01/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE/</url>
