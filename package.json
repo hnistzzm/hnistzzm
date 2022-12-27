@@ -32,6 +32,6 @@
     "live2d-widget-model-wanko": "^1.0.5"
   },
   "devDependencies": {
-    "@waline/client": "^1.5.2"
+    "@waline/client": "^2.14.4"
   }
 }
